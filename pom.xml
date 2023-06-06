@@ -17,6 +17,11 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<!-- Dependência do Banco de dados PostgreSQL -->
+<dependency>
+	<groupId>org.postgresql</groupId>
+	<artifactId>postgresql</artifactId>
+</dependency> 
 		<dependency>
 		<groupId>org.springdoc</groupId>
 		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
